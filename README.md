@@ -4,7 +4,7 @@ Network scanner using nmap
 EDUCATION PURPOSES ONLY
 
 Overview
--This tool is a Python-based network scanner that utilizes python-nmap to perform Nmap scans and netifaces to auto-detect your local network if a target network is not specified. It supports different scanning modes, including intense, stealthy, and quick scans.
+-This tool is a Python-based network scanner that utilizes python-nmap to perform Nmap scans and auto detects the local network if not provided. It supports different scanning modes: intense, stealthy, and quick scans.
 
 Features
 -Automatic local network detection if no target is specified.

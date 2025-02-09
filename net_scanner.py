@@ -156,8 +156,8 @@ def main():
         scanner = run_nmap_scan(target, '-sS --source-port 53 -p- -sV')
     # Run the Nmap scan
     else:
-        scanner = run_nmap_scan(target, '-sT -n -T4 -oA {adsadsasd}')
-    # Print the results in a human-friendly format.
+        scanner = run_nmap_scan(target, '-sT -n -T4')
+    # Print results
     print_scan_results(scanner)
 
 

@@ -25,17 +25,14 @@ Usage
 </br>-python network_scanner.py                # Scans your local network
 </br>-python network_scanner.py -t 192.168.1.0/24  # Scans a specified network range
 
-Scan Modes
-
-</br>python network_scanner.py -i      # Intense scan (-sS --source-port 53 -p- -A -T4)
-</br>python network_scanner.py -s      # Stealth scan (-sS --source-port 53 -p- -sV)
-</br>python network_scanner.py -q      # Quick scan (-sT -n -T4)
+Scan Modes:
+</br>-python network_scanner.py -i      # Intense scan (-sS --source-port 53 -p- -A -T4)
+</br>-python network_scanner.py -s      # Stealth scan (-sS --source-port 53 -p- -sV)
+</br>-python network_scanner.py -q      # Quick scan (-sT -n -T4)
 
 Requirements
 
-</br>Python 3.x
-
-</br>Nmap (installed on your system)
-
-</br>Install required Python modules:
+</br>-Python 3.x
+</br>-Nmap (installed on your system)
+</br>-Install required Python modules:
 </br>-pip install python-nmap netifaces
